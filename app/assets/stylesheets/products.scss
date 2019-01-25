@@ -12,14 +12,14 @@
 	table {
 		border-collapse: collapse;
 	}
-	td{
+	td {
 		padding: 0.5em;
 		margin: 0;
 	}
 
 	tr.list_line_odd {
-		background-color: #eaeaea;
-	}
+    background-color: #effeef;
+  }
 
 	td.image {
 		// Hide this on mobile devices
@@ -57,4 +57,4 @@
 			padding: 0.5em 0;
 		}
 	}
-	}
+}
