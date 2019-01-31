@@ -12,6 +12,15 @@ class ProductTest < ActiveSupport::TestCase
 		assert product.errors[:image_url].any?
 	end
 
+	# test "title length is greater thant 10 charachers" do
+	# product = Product.new(title: 				"My Book Title",
+	# 											description: 	"yyy",
+	# 											image_url: 		"zzz.jpg")
+	# 	product.title =
+	# 	assert product.valid?
+	# 	assert product.errors[:title].any?
+	# end
+
 	test "product price must be positive" do
 		product = Product.new(title: 				"My Book Title",
 													description: 	"yyy",
